@@ -39,8 +39,18 @@ Para concluir, se realizaron validaciones en https://validator.w3.org/ con el fi
 
 Instrucciones para visualizar la página: 
 
-Localiza el archivo index.html.
+OPCION 1:
 
-Haz clic derecho sobre él.
+1. Localiza el archivo index.html.
 
-Selecciona Abrir con… y elige el navegador de tu preferencia.
+2. Haz clic derecho sobre él.
+
+3. Selecciona Abrir con… y elige el navegador de tu preferencia.
+
+OPCION 2:
+
+1. Visita la pagina en Github Pages:
+
+https://disharmony86.github.io/htmlsemantico/
+
+Gracias!
