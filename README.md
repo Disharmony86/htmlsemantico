@@ -35,7 +35,9 @@ Se optó por priorizar etiquetas semánticas para evitar depender de atributos A
 Estructura simple y limpia para facilitar el mantenimiento:
 La página fue diseñada evitando etiquetas redundantes o estructuras anidadas innecesariamente. Esto hace el código más legible, más fácil de mantener y adecuado para un aprendizaje sólido de buenas prácticas.
 
-Instrucciones para visualizar la página:
+Para concluir, se realizaron validaciones en https://validator.w3.org/ con el fin de localizar errores semanticos o de sintaxis, se realizaron las correcciones oportunamente.
+
+Instrucciones para visualizar la página: 
 
 Localiza el archivo index.html.
 
