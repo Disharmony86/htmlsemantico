@@ -1,0 +1,91 @@
+/* Hoja de estilos para la página index
+Iniciaremos haciendo un reset básico de márgenes y paddings para el comportamiento consistente entre navegadores:
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+}
+
+/* Aplicaremos un estilo basico al body*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #F6F7F9;
+    color: #3C3C42;
+}
+
+/*Estilo para el header*/
+header {
+
+    background-color: #D4D7DC;
+    color: #3C3C42;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+header h1 {
+    color: #3C3C42;
+    font-size: 2rem;
+}
+
+/*Aplicamos estilo a la foto, se suavisan border, aplicamos sombre y centramos y reducimos el tamaño*/
+figure img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo para la descripcion de la imagen */
+figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #3C3C42;
+    margin-top: 10px;
+    padding: 0 10px;
+    letter-spacing: 0.3px;
+}
+/* Estilo para los artículos, sombra, borde y padding */
+article {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #D4D7DC;
+    color: #3C3C42;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+}
+
+footer dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 8px 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+footer dt {
+    font-weight: bold;
+}
+
+footer dd {
+    margin-left: 0;
+}

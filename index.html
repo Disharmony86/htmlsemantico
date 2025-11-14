@@ -1,0 +1,98 @@
+<!--👇Aplico !DOCTYPE html y especifico "es" como lenguaje-->
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<!-- 👇
+  Página creada para práctica de HTML5 con énfasis en semántica y accesibilidad.
+  Se utilizan etiquetas semánticas (<header>, <section>, <article>, <figure>, <footer>)
+  para organizar el contenido de manera lógica.
+-->
+
+<!--👌
+ARIA-labels se usan para mejorar la accesibilidad, proporcionando descripciones claras
+de las secciones para usuarios de tecnologías de asistencia. Para esta actividad el hecho de usar etiquetas semanticas,
+nos ayuda a reducir el uso de ARIA, ya que las etiquetas semánticas ya proporcionan información sobre el propósito del contenido.
+En nuestro caso, aplicaremos ARIA-labels en las etiquetas header, main y footer para mejorar la accesibilidad.
+-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>: : : Presentacion Personal : : : </title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Página personal desarrollada como práctica de HTML5, accesibilidad y semántica.">
+</head>
+
+<body>
+
+  <!-- 👇
+  En esta seccion aplico header con el fin de identificar el titulo principal de la pagina usando h1
+  -->
+<header aria-label="Encabezado principal de la pagina">
+<h1>Alfredo Revollo Castañeda</h1>
+</header>
+
+<!-- 👇
+  Aqui se usa main para definir el contenido principal de la pagina, dentro de main se usa section para agrupar
+  contenido relacionado, ademas de article para definir una seccion independiente dentro de la seccion principal.
+  Se incluye una figura con su respectivo figcaption para describir la imagen, mejorando la accesibilidad.
+  -->
+<main aria-label="Contenido principal de la página">
+  <section>
+    
+  <h2>Contexto de la actividad</h2>
+  
+  <article>
+<p>A continuación les contaré algo sobre mi vida para fines académicos de esta página. La idea es usar estructura semántica
+y el uso completo de HTML5, además de usar la correcta configuración de accesibilidad como la inclusión de descripciones alt y
+labels creando una presentacion personal</p>
+</article>
+
+<!-- 👇uso la etiqueta figure para especificar una imagen con su descripcion con alt agrego comentario de descripcion de la imagen-->
+  <figure aria-labelledby="descripcion-foto">
+  <img src="./img/image.jpg" alt="Foto mía en un ascensor">
+  <figcaption id="descripcion-foto">Foto tomada mientras me tomaba un café en mi oficina en el Banco Caja Social</figcaption>
+</figure>
+
+<!-- 👇uso la etiqueta article para definir una sección independiente dentro de la sección principal-->
+  <article name="presentacion">
+    
+    <h3>A que me dedico?</h3>
+    <p>Tengo 39 años y vivo en la ciudad de Madrid, Cundinamarca. Vivo con mi esposa y mi hija. Trabajo como
+    Analista de ciberseguridad en el Banco Caja Social. Me encanta mi trabajo porque me exige y sobre todo puedo
+    resolver problemas complejos. También me permiten automatizar procesos y uso lenguajes de programación para lograrlo.
+    </p>
+  </article>
+  </section>
+</main>
+
+
+<!-- 👇
+  En el footer incluyo una lista de definiciones (dl) para presentar informacion adicional sobre el autor de la pagina.
+  Esto mejora la semantica y accesibilidad al estructurar claramente los datos presentados.
+  -->
+<footer aria-label="Información del autor">
+
+    <dl>
+    <dt>Nombre:</dt>
+    <dd>Alfredo Enrique Revollo</dd>
+    <dt>Actividad:</dt>
+    <dd>Implementación de una página HTML5 básica, siguiendo buenas prácticas de semántica y accesibilidad</dd>
+    <dt>Docente:</dt>
+    <dd>Diana Marcela Toquica Rodríguez</dd>
+    <dt>Carrera:</dt>
+    <dd>Ingeniería en Software</dd>
+    <dt>Semestre:</dt>
+    <dd>4</dd>
+    <dt>Fecha:</dt>
+    <dd>Viernes, 14 de noviembre de 2025</dd>
+  </dl>
+    
+
+</footer>
+
+
+</body>
+
+
+
+</html>
